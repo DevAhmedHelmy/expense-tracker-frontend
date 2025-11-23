@@ -4,25 +4,28 @@ A simple **Expense Tracker** built using **HTML, CSS, and Vanilla JavaScript (ES
 The app allows users to record, manage, sort, and analyze their daily expenses with a clean user interface and modular JavaScript structure.
 
 ---
+
 ## 📸 Screenshots
 
 ### ➤ Add Expense Form (Empty)
-![Add Expense Form Empty](/assets/screenshots/3025accf-a3c9-4252-b064-7c0ed4237d83.png)
+![Add Expense Form Empty](assets/screenshots/3025accf-a3c9-4252-b064-7c0ed4237d83.png)
 
 ---
 
 ### ➤ Validation Errors
-![Validation Errors](/assets/screenshots/6eb449a7-251d-45a2-ae20-f7e3ef890bea.png)
+![Validation Errors](assets/screenshots/6eb449a7-251d-45a2-ae20-f7e3ef890bea.png)
 
 ---
 
 ### ➤ Expenses Table (After Adding Expenses)
-![Expenses Table](/assets/screenshots/4b083588-1d0c-4c2a-97ea-7a4a1d03e6e9.png)
+![Expenses Table](assets/screenshots/4b083588-1d0c-4c2a-97ea-7a4a1d03e6e9.png)
 
 ---
 
 ### ➤ Full Dashboard View
-![Full Dashboard](/assets/screenshots/3f603c93-0618-4212-a2d0-d560021d4d19.png)
+![Full Dashboard](assets/screenshots/3f603c93-0618-4212-a2d0-d560021d4d19.png)
+
+---
 
 ## 📌 Project Description
 
@@ -61,23 +64,30 @@ The app provides an interactive UI to add, delete, filter, and sort expenses whi
 - Form error messages below each input
 - Clean and responsive UI
 
-### ✔️ Code Architecture (JS Modules)
+---
+ 
+
+## 📂 Code Architecture (JS Modules)
+
 The project uses a multi-file JavaScript structure:
+
+```text
 expense-tracker/
 │
 ├── index.html
 ├── README.md
 │
 ├── css/
-│ └── style.css
+│   └── style.css
 │
 └── js/
-├── app.js
-├── state.js
-├── dom.js
-├── validation.js
-└── utils.js
-
+    ├── app.js
+    ├── state.js
+    ├── dom.js
+    ├── validation.js
+    └── utils.js
+```
+---
 ## ▶️ How to Run the Project
 
 Because the project uses **ES Modules**, you *must* run it from a local server.  
@@ -87,5 +97,7 @@ Opening `index.html` directly using `file://` will break imports.
 1. Install the VS Code extension **Live Server**
 2. Right-click `index.html`
 3. Click **"Open with Live Server"**
-4. Your browser will open at
+4. Your browser will open at  
    `http://127.0.0.1:5500/` or similar.
+
+---
