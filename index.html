@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Expense Tracker – Mini Budget App</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <h1>Expense Tracker</h1>
+      <p>Track your daily expenses and stay on budget.</p>
+    </header>
+
+    <!-- Summary Cards -->
+    <section class="summary">
+      <div class="card">
+        <h3>Total Expenses</h3>
+        <p class="summary-value" id="total-amount">$0.00</p>
+      </div>
+      <div class="card">
+        <h3>Highest Expense</h3>
+        <p class="summary-value" id="highest-expense">—</p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-layout">
+      <!-- Add Expense Form -->
+      <section class="panel">
+        <h2>Add New Expense</h2>
+        <form id="expense-form">
+          <div class="form-group">
+            <label for="title">Title<span class="required">*</span></label>
+            <input type="text" id="title" name="title" placeholder="e.g., Groceries" />
+            <small class="error-msg" data-error-for="title"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="amount">Amount<span class="required">*</span></label>
+            <input type="number" id="amount" name="amount" placeholder="e.g., 150" step="0.01" />
+            <small class="error-msg" data-error-for="amount"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="category">Category</label>
+            <select id="category" name="category">
+              <option value="">Select category</option>
+              <option value="food">Food</option>
+              <option value="transport">Transport</option>
+              <option value="bills">Bills</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="other">Other</option>
+            </select>
+            <small class="error-msg" data-error-for="category"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" />
+          </div>
+
+          <button type="submit" class="btn primary">Add Expense</button>
+        </form>
+      </section>
+
+      <!-- Expense List & Filters -->
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Expenses</h2>
+          <div class="filters">
+            <label for="filter-category">Filter by Category:</label>
+            <select id="filter-category">
+              <option value="all">All</option>
+              <option value="food">Food</option>
+              <option value="transport">Transport</option>
+              <option value="bills">Bills</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="expense-table">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="expense-tbody">
+              <!-- Rows will be injected by JS -->
+            </tbody>
+          </table>
+          <p class="no-data" id="no-expenses-msg">No expenses yet. Add your first one!</p>
+        </div>
+      </section>
+    </main>
+
+     
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
