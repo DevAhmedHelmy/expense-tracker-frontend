@@ -7,22 +7,22 @@ The app allows users to record, manage, sort, and analyze their daily expenses w
 ## 📸 Screenshots
 
 ### ➤ Add Expense Form (Empty)
-![Add Expense Form Empty](/mnt/data/3025accf-a3c9-4252-b064-7c0ed4237d83.png)
+![Add Expense Form Empty](/assets/screenshots/3025accf-a3c9-4252-b064-7c0ed4237d83.png)
 
 ---
 
 ### ➤ Validation Errors
-![Validation Errors](/mnt/data/6eb449a7-251d-45a2-ae20-f7e3ef890bea.png)
+![Validation Errors](/assets/screenshots/6eb449a7-251d-45a2-ae20-f7e3ef890bea.png)
 
 ---
 
 ### ➤ Expenses Table (After Adding Expenses)
-![Expenses Table](/mnt/data/4b083588-1d0c-4c2a-97ea-7a4a1d03e6e9.png)
+![Expenses Table](/assets/screenshots/4b083588-1d0c-4c2a-97ea-7a4a1d03e6e9.png)
 
 ---
 
 ### ➤ Full Dashboard View
-![Full Dashboard](/mnt/data/3f603c93-0618-4212-a2d0-d560021d4d19.png)
+![Full Dashboard](/assets/screenshots/3f603c93-0618-4212-a2d0-d560021d4d19.png)
 
 ## 📌 Project Description
 
