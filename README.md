@@ -76,7 +76,7 @@ expense-tracker/
 ├── state.js
 ├── dom.js
 ├── validation.js
-├── utils.js
+└── utils.js
 
 ## ▶️ How to Run the Project
 
