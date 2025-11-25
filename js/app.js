@@ -23,7 +23,9 @@ function refreshUI() {
 }
 
 function handleDeleteExpense(id) {
-  deleteExpenseById(id);
+  console.log("Deleting expense with id:", id);
+  const expenses =  deleteExpenseById(id);
+  console.log(expenses);
   refreshUI();
 }
 form.addEventListener("submit", (e) => {
