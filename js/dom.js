@@ -1,5 +1,4 @@
 // show validation errors
-
 import { formatCurrency } from "./utils.js";
 const tbody = document.getElementById("expense-tbody");
 const totalAmountEl = document.getElementById("total-amount");
