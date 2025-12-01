@@ -8,7 +8,6 @@ const amountInput = document.getElementById("amount");
 const categoryInput = document.getElementById("category");
 const dateInput = document.getElementById("date");
 const filterCategorySelect = document.getElementById("filter-category");
-
  
 
 function refreshUI() {
@@ -54,4 +53,3 @@ filterCategorySelect.addEventListener("change", () => {
   refreshUI();
 });
 
-// delete expense
