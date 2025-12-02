@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "A simple **Expense Tracker** built using **HTML, CSS, and Vanilla JavaScript (ES Modules)**.  \r The app allows users to record, manage, sort, and analyze their daily expenses with a clean user interface and modular JavaScript structure.",
+  "main": "src/js/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAhmedHelmy/expense-tracker-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevAhmedHelmy/expense-tracker-frontend/issues"
+  },
+  "homepage": "https://github.com/DevAhmedHelmy/expense-tracker-frontend#readme",
+  "devDependencies": {
+    "vite": "^7.2.6"
+  }
+}
