@@ -1,7 +1,7 @@
 import { clearForm, clearValidationErrors, renderExpensesTable, renderHighestExpenseSummary, renderTotalSummary, showValidationErrors } from "./dom.js";
 import { addExpense, deleteExpenseById, getExpensesByCategory, getHighestExpense, getTotalExpenses } from "./state.js";
 import { validateExpenseInput } from "./validation.js";
-
+import "../css/style.css";
 const form = document.getElementById("expense-form");
 const titleInput = document.getElementById("title");
 const amountInput = document.getElementById("amount");
