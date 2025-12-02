@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "A simple **Expense Tracker** built using **HTML, CSS, and Vanilla JavaScript (ES Modules)**.  \r The app allows users to record, manage, sort, and analyze their daily expenses with a clean user interface and modular JavaScript structure.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAhmedHelmy/expense-tracker-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevAhmedHelmy/expense-tracker-frontend/issues"
+  },
+  "homepage": "https://github.com/DevAhmedHelmy/expense-tracker-frontend#readme",
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

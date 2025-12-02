@@ -1,14 +1,13 @@
 import { clearForm, clearValidationErrors, renderExpensesTable, renderHighestExpenseSummary, renderTotalSummary, showValidationErrors } from "./dom.js";
 import { addExpense, deleteExpenseById, getExpensesByCategory, getHighestExpense, getTotalExpenses } from "./state.js";
 import { validateExpenseInput } from "./validation.js";
-
+import "../css/style.css";
 const form = document.getElementById("expense-form");
 const titleInput = document.getElementById("title");
 const amountInput = document.getElementById("amount");
 const categoryInput = document.getElementById("category");
 const dateInput = document.getElementById("date");
 const filterCategorySelect = document.getElementById("filter-category");
-
  
 
 function refreshUI() {
@@ -54,4 +53,3 @@ filterCategorySelect.addEventListener("change", () => {
   refreshUI();
 });
 
-// delete expense
